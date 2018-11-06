@@ -3,7 +3,7 @@
 '''
 
 # Prime number finder with a logic bug
-def checker_prime(num):
+def check_prime(num):
   """
   Checks to see if a number is prime.
   :param int num:
@@ -20,8 +20,8 @@ def checker_prime(num):
 
 # Run the following code if the file is run at the command line
 if __name__ == "__main__":
-  num = int(input("Enter a number: "))
-  if primeChecker(num):
+  num = np.randome.randint(1,100)
+  if check_prime(num):
     print ("Is prime!")
   else:
     print ("Not a prime.")
