@@ -3,7 +3,7 @@
 '''
 
 # Prime number finder with a logic bug
-def checker_prime(num):
+def checksum_prime(num):
   """
   Checks to see if a number is prime.
   :param int num:
